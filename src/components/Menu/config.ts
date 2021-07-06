@@ -59,24 +59,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'TeamBattleIcon',
     href: '/competition',
   },
-  {
-    label: t('Teams & Profile'),
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: t('Leaderboard'),
-        href: '/teams',
-      },
-      {
-        label: t('Task Center'),
-        href: '/profile/tasks',
-      },
-      {
-        label: t('Your Profile'),
-        href: '/profile',
-      },
-    ],
-  },
+  
   {
     label: t('Info'),
     icon: 'InfoIcon',
