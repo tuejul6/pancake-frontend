@@ -91,7 +91,7 @@ const Home: React.FC = () => {
         <Heading as="h1" scale="xl" mb="24px" color="secondary">
           {t('ShitCoinFinance')}
         </Heading>
-        <Text>{t('Stake your ShitCoins, to earn SHITTYCOIN')}</Text>
+        <Text>{t('Stake your ShitCoins, to earn SHIT')}</Text>
       </Hero>
       <div>
         <Cards>
